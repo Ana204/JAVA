@@ -1,4 +1,4 @@
-package UsandoSwitchCase;
+package view.UsandoSwitchCase;
 
 import java.io.IOException;
 

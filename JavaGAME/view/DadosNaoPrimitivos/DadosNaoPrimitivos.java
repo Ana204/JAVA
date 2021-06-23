@@ -1,4 +1,4 @@
-package DadosNaoPrimitivos;
+package view.DadosNaoPrimitivos;
 
 public class DadosNaoPrimitivos {
     
