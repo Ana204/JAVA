@@ -18,7 +18,7 @@ public class Nivelamento {
         System.out.println("Telefone: " + obj.getTelefone());
         System.out.println("Email: " + obj.getEmail());
 
-        System.out.println("\n");
+        System.out.println("\n" + "Professor");
 
         Professor professor = new Professor();
 
@@ -32,7 +32,7 @@ public class Nivelamento {
         System.out.println("Email: " + professor.getEmail());
         System.out.println("Titulo: " + professor.getTitulo());
 
-        System.out.println("\n");
+        System.out.println("\n" + "Estudante");
 
         Estudante estudante = new Estudante();
 
