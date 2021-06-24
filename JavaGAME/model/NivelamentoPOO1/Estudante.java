@@ -6,6 +6,12 @@ public class Estudante extends Pessoa{
     private String curso;
 
 
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return getCurso();
+    }
+
     public int getRA() {
         return RA;
     }
@@ -15,7 +21,7 @@ public class Estudante extends Pessoa{
     }
 
 
-    
+
     public String getCurso() {
         return curso;
     }

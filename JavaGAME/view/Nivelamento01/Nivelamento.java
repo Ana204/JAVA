@@ -31,6 +31,7 @@ public class Nivelamento {
         System.out.println("Telefone: " + professor.getTelefone());
         System.out.println("Email: " + professor.getEmail());
         System.out.println("Titulo: " + professor.getTitulo());
+        System.out.println("ToString: " + professor.toString());
 
         System.out.println("\n" + "Estudante");
 
@@ -47,5 +48,6 @@ public class Nivelamento {
         System.out.println("Email: " + estudante.getEmail());
         System.out.println("Curso: " + estudante.getCurso());
         System.out.println("RA: " + estudante.getRA());
+        System.out.println("ToString: " + estudante.toString());
     }
 }
