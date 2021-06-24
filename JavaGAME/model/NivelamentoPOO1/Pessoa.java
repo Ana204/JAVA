@@ -1,6 +1,6 @@
 package model.NivelamentoPOO1;
 
-public class Pessoa {
+public class Pessoa implements Habilidade {
     
     private String nome;
     private String telefone;
@@ -34,7 +34,10 @@ public class Pessoa {
         this.telefone = telefone;
     }
 
-    
+    @Override
+    public String falarIdiomas() {
+        return "Meu nome é: " + getNome() + " e sei falar minha ligua nativa!";
+    }
 
     
 

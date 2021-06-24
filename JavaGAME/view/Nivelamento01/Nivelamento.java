@@ -14,11 +14,13 @@ public class Nivelamento {
         obj.setTelefone("9999999");
         obj.setEmail("Ana@hotmail.com");
 
+        System.out.println("Pessoa");
         System.out.println("Nome: " + obj.getNome());
         System.out.println("Telefone: " + obj.getTelefone());
         System.out.println("Email: " + obj.getEmail());
+        System.out.println(obj.falarIdiomas());
 
-        System.out.println("\n" + "Professor");
+        System.out.println("\n\n" + "Professor");
 
         Professor professor = new Professor();
 
@@ -32,8 +34,9 @@ public class Nivelamento {
         System.out.println("Email: " + professor.getEmail());
         System.out.println("Titulo: " + professor.getTitulo());
         System.out.println("ToString: " + professor.toString());
+        System.out.print(professor.falarIdiomas());
 
-        System.out.println("\n" + "Estudante");
+        System.out.println("\n\n" + "Estudante");
 
         Estudante estudante = new Estudante();
 
@@ -49,5 +52,6 @@ public class Nivelamento {
         System.out.println("Curso: " + estudante.getCurso());
         System.out.println("RA: " + estudante.getRA());
         System.out.println("ToString: " + estudante.toString());
+        System.out.println(estudante.falarIdiomas());
     }
 }

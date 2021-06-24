@@ -4,11 +4,6 @@ public class Professor extends Pessoa{
     
     private String titulo;
 
-    @Override
-    public String toString() {
-        // TODO Auto-generated method stub
-        return getTitulo();
-    }
 
     public String getTitulo() {
         return titulo;
@@ -16,6 +11,17 @@ public class Professor extends Pessoa{
 
     public void setTitulo(String titulo) {
         this.titulo = titulo;
+    }
+
+    
+    @Override
+    public String toString() {
+        return getTitulo();
+    }
+
+    @Override
+    public String falarIdiomas() {
+        return "Meu nome é: " + getNome() + " e eu sei falar espanhol.";
     }
 
     
